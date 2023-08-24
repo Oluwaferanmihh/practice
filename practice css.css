@@ -9,3 +9,8 @@ button{
     color: white;
     border-color: burlywood;
 }
+@media screen and (max-width:800px) {
+  button, *magic, *magic2, *magic3, *magic4, *magic5 {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
